@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Contact | Bubbles</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #a8dbff;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bubbles </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Fish tanks</a></li>
+                            <li><a class="dropdown-item" href="#">Aquarium products</a></li>
+                            <li><a class="dropdown-item" href="#">Aquarium Fishes</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-outline-primary me-2" data-bs-toggle="modal"
+                        data-bs-target="#login">Login</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#signup">Sign-up</button>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container my-4">
+        <h1>Contact Us.</h1>
+        <form>
+            <div class="mb-3">
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text">First name</span>
+
+                    <input type="text" class="form-control" placeholder="enter here" aria-label="Username">
+                    <span class="input-group-text">Last name</span>
+                    <input type="text" class="form-control" placeholder="enter here" aria-label="Server">
+                </div>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Required for contacting you back. </div>
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select subject</option>
+                <option value="1">Promblem in delivery</option>
+                <option value="2">Returns and Refunds</option>
+                <option value="3">Request new products</option>
+                <option value="4">Suggestion</option>
+
+            </select>
+
+
+
+            <div class="input-group my-5">
+                <span class="input-group-text">Describe your problem here: </span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Notify me</label>
+            </div>
+            <button type="submit" class="btn btn-outline-success">Submit</button>
+        </form>
+    </div>
+
+    <hr>
+
+
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img src="img/logo.PNG" width="24" height="24" alt="">
+                <small class="d-block mb-3 text-muted">Bubbles.com © 2023</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Customer Corner</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-info" href="#">Contact Us</a></li>
+                    <li><a class="link-info" href="#"> About Us</a></li>
+                    <li><a class="link-info" href="#">Direct customer support</a></li>
+                    <li><a class="link-info" href="#">Promblem with delivery</a></li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Seller Corner</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-info" href="#">Connect your store</a></li>
+                    <li><a class="link-info" href="#">Sell aquarium live stock</a></li>
+                    <li><a class="link-info" href="#">Sell aquarium products</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Team</a></li>
+                    <li><a class="link-secondary" href="#">Locations</a></li>
+                    <li><a class="link-secondary" href="#">Privacy</a></li>
+                    <li><a class="link-secondary" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
